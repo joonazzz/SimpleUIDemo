@@ -11,69 +11,106 @@
 
 
     <LinearLayout
-        android:layout_margin="10dp"
-        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:background="@android:color/holo_orange_dark"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="20dp">
 
 
         <TextView
-            android:layout_marginRight="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Linear"
-            android:background="@android:color/holo_blue_dark"
-            />
-        <TextView
             android:layout_marginRight="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Layout "
             android:background="@android:color/holo_blue_dark"
-            />
+            android:text="Linear" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Horizontal"
+            android:layout_marginRight="5dp"
             android:background="@android:color/holo_blue_dark"
-            />
+            android:text="Layout " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Horizontal" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_margin="10dp"
-        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:background="@android:color/holo_orange_dark"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp">
 
 
         <TextView
-            android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Linear"
-            android:background="@android:color/holo_blue_dark"
-            />
-        <TextView
             android:layout_marginBottom="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Layout "
             android:background="@android:color/holo_blue_dark"
-            />
+            android:text="Linear" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vertical"
+            android:layout_marginBottom="5dp"
             android:background="@android:color/holo_blue_dark"
-            />
+            android:text="Layout " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Vertical" />
 
     </LinearLayout>
 
-    <!--Support applayout supports weights. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Weight1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Weight3" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
 
 </LinearLayout>
